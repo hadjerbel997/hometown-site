@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.hero-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("pexels-photo-4511187.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+h1{
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+.paragraphe{
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+#activities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(210, 210, 175);
+    color: rgb(79, 75, 75);
+    letter-spacing: 1px;
+    padding: 25px;
+}
+.img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.img:hover{
+    border: 2px white solid;
+    cursor: pointer;
+}
+.cat{
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card-guide{
+    margin: 25px;
+    border: rgb(210, 210, 175) dotted 2px;
+    background-color: rgb(210, 210, 175);
+    color: rgb(79, 75, 75);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.woman{
+    color: rgb(79, 75, 75);
+}
+h4{
+   letter-spacing: 3px;
+}
+.cat:hover{
+    border: 2px solid white;
+}
